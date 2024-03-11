@@ -1,24 +1,63 @@
-import {useState, useCallback} from 'react';
+import React, { useState, useCallback, useRef } from "react";
 
 export function useFormAndValidation() {
-  const [ values, setValues ] = useState({});
-  const [ errors, setErrors ] = useState({});
-  const [ isValid, setIsValid ] = useState(true);
+  const [values, setValues] = useState({});
+  const [errors, setErrors] = useState({});
+  const [isValid, setIsValid] = useState(true);
+  // Add a state to track if the file input should be reset
+  const [resetFile, setResetFile] = useState(false);
 
   const handleChange = (e) => {
-    const {name, value} = e.target
-    setValues({...values, [name]: value });
-    setErrors({...errors, [name]: e.target.validationMessage});
-    setIsValid(e.target.closest('form').checkValidity());
+    const { name, type } = e.target;
+    if (type === "file") {
+      // Reset the flag for file input reset
+      setResetFile(false);
+
+      const file = e.target.files[0];
+      if (file) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          setValues((prevValues) => ({
+            ...prevValues,
+            [name]: e.target.result,
+          }));
+        };
+        reader.readAsDataURL(file);
+      }
+    } else {
+      const { value } = e.target;
+      setValues((prevValues) => ({
+        ...prevValues,
+        [name]: value,
+      }));
+    }
+    setErrors((prevErrors) => ({
+      ...prevErrors,
+      [name]: e.target.validationMessage,
+    }));
+    setIsValid(e.target.closest("form").checkValidity());
   };
 
+  const resetForm = useCallback(
+    (newValues = {}, newErrors = {}, newIsValid = false) => {
+      setValues(newValues);
+      setErrors(newErrors);
+      setIsValid(newIsValid);
+      // Indicate that the file input should be reset
+      setResetFile(true);
+    },
+    [setValues, setErrors, setIsValid]
+  );
 
-
-  const resetForm = useCallback((newValues = {}, newErrors = {}, newIsValid = false) => {
-    setValues(newValues);
-    setErrors(newErrors);
-    setIsValid(newIsValid);
-  }, [setValues, setErrors, setIsValid]);
-
-  return { values, handleChange, errors, isValid, resetForm, setValues, setIsValid };
+  return {
+    values,
+    handleChange,
+    errors,
+    isValid,
+    resetForm,
+    setValues,
+    setIsValid,
+    resetFile, // Expose the resetFile state to use it in the component
+    setResetFile, // Allow resetting the resetFile flag externally if needed
+  };
 }

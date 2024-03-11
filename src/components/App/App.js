@@ -1,4 +1,6 @@
 import LoginPage from "../Login/Login";
+import SignupPage from "../Signup/SignUp";
+import UserPage from "../UserPage/UserPage";
 
 function App() {
   return (

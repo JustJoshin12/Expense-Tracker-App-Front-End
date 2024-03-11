@@ -1,6 +1,7 @@
 import { useFormAndValidation } from "../../hooks/useFormAndValidation";
 import ImageSlideshow from "../UI/imageSlideShow";
-import logo from "../../images/logo.webp";
+import logo from "../../images/logo.png";
+import { signin } from "../../utils/auth";
 
 const LoginPage = () => {
   const { values, handleChange, errors, isValid, resetForm } =
@@ -9,7 +10,9 @@ const LoginPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    if (!isValid) return;
+    if (!isValid) {
+      window.alert('invalid data');
+      return};
 
     const loginData = {
       email: values.email,
@@ -17,25 +20,18 @@ const LoginPage = () => {
     };
 
     try {
-      const response = await fetch("http://localhost:3001/signin", {
-        method: "POST", 
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(loginData), 
-      });
-
-      if (!response.ok) {
-        // If the response is not ok, throw an error with the status
-        throw new Error(`Error: ${response.status}`);
-      }
-
-      const data = await response.json(); 
+       // Use the signup function instead of fetch
+    await signin(loginData)
+    .then(data => {
       console.log("Login successful:", data);
-
-      // Perform any actions upon successful login here, e.g., redirect or state update
-
-      resetForm(); // Reset the form on successful login
+      // Perform any actions upon successful signup here, e.g., redirect or state update
+      resetForm(); // Reset the form on successful signup
+    })
+    .catch(error => {
+      // Handle any errors that occurred during the signup
+      console.error("Login failed:", error.message);
+      // You might want to update the UI to reflect the error to the user
+    });
     } catch (error) {
       // Handle any errors that occurred during the fetch
       console.error("Login failed:", error.message);
@@ -44,12 +40,15 @@ const LoginPage = () => {
   };
 
   return (
-    <div className="mt-32">
-      <div className="flex  h-[600px] justify-center">
-        <div className="flex flex-col items-center justify-center bg-blue-400">
-      <img src={logo} className="w-20"/>
+    <div className="pt-40 bg-blue-400 h-screen">
+      <div className="flex w-[1200px] h-[600px] justify-center border mx-auto rounded-badge overflow-hidden">
+        <div className="flex flex-col items-center justify-center bg-slate-500 gap-4 w-1/2">
+          <img src={logo} className="w-32 h-32" />
           <h2 className="font-[Poppins-bold] text-4xl">Login</h2>
-          <p className="px-10 text-sm font-[Poppins] my-3">Shine a Light on Your Spending - Navigate Your Finances with Precision.</p>
+          <p className="px-10 text-sm font-semibold font-[Poppins] ">
+            Shine a Light on Your Spending - Navigate Your Finances with
+            Precision.
+          </p>
           <form onSubmit={handleSubmit} className="w-[500px]  p-8">
             <label className="input input-bordered flex items-center gap-2 mb-2">
               <svg
@@ -95,11 +94,11 @@ const LoginPage = () => {
                 value={values.password}
                 required
                 className="grow"
-                placeholder="password"
+                placeholder="Password"
               />
             </label>
             {errors.password && (
-              <div className="m-1 text-error">{errors.password}</div>
+              <div className="m-1 text-white">{errors.password}</div>
             )}
             <div className="pt-5 flex justify-evenly">
               <button className="btn" onClick={handleSubmit}>
@@ -109,7 +108,7 @@ const LoginPage = () => {
             </div>
           </form>
         </div>
-        <div className="rounded">
+        <div className="rounded w-1/2">
           <ImageSlideshow />
         </div>
       </div>
