@@ -1,0 +1,523 @@
+
+    [
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "food",
+            "amount": 387.85,
+            "title": "Grocery Shopping",
+            "description": "Expenses for food and groceries.",
+            "date": "2022-06-03"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "food",
+            "amount": 178.77,
+            "title": "Restaurant Dinner",
+            "description": "Dinner at a local restaurant.",
+            "date": "2022-11-11"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "food",
+            "amount": 49.77,
+            "title": "Coffee Shop",
+            "description": "Morning coffee and pastries.",
+            "date": "2022-11-04"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "food",
+            "amount": 118.72,
+            "title": "Fast Food Lunch",
+            "description": "Quick lunch at a fast food restaurant.",
+            "date": "2023-06-02"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "food",
+            "amount": 40.82,
+            "title": "Organic Market",
+            "description": "Purchasing organic fruits and vegetables.",
+            "date": "2023-10-31"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "travel",
+            "amount": 123.68,
+            "title": "Flight to Paris",
+            "description": "Round-trip flight tickets to Paris.",
+            "date": "2023-07-21"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "travel",
+            "amount": 320.91,
+            "title": "Hotel Booking",
+            "description": "Hotel reservation for vacation.",
+            "date": "2023-10-18"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "travel",
+            "amount": 312.67,
+            "title": "Car Rental",
+            "description": "Renting a car for travel.",
+            "date": "2022-05-09"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "travel",
+            "amount": 211.87,
+            "title": "Travel Insurance",
+            "description": "Purchasing travel insurance.",
+            "date": "2023-11-01"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "travel",
+            "amount": 137.71,
+            "title": "Tourist Attraction Tickets",
+            "description": "Tickets to visit popular tourist attractions.",
+            "date": "2022-10-17"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "clothing",
+            "amount": 253.06,
+            "title": "Winter Jacket Purchase",
+            "description": "Buying a new winter jacket.",
+            "date": "2023-12-02"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "clothing",
+            "amount": 142.39,
+            "title": "Summer Clothing Haul",
+            "description": "Summer wardrobe refresh.",
+            "date": "2023-09-30"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "clothing",
+            "amount": 441.08,
+            "title": "Sports Gear",
+            "description": "Purchasing new sports equipment and clothing.",
+            "date": "2022-04-09"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "clothing",
+            "amount": 448.92,
+            "title": "Designer Shoes",
+            "description": "Buying a pair of designer shoes.",
+            "date": "2022-07-15"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "clothing",
+            "amount": 335.65,
+            "title": "Children's Wear",
+            "description": "Shopping for children's clothing for the new season.",
+            "date": "2023-06-19"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "healthcare",
+            "amount": 224.97,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2024-01-01"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "healthcare",
+            "amount": 304.16,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-03-16"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "healthcare",
+            "amount": 112.61,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-04-25"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "healthcare",
+            "amount": 91.77,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-06-30"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "healthcare",
+            "amount": 108.84,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-03-14"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "transportation",
+            "amount": 332.67,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-02-16"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "transportation",
+            "amount": 429.63,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-06-14"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "transportation",
+            "amount": 73.24,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-09-15"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "transportation",
+            "amount": 38.15,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-08-20"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "transportation",
+            "amount": 268.97,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-09-15"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "insurance",
+            "amount": 474.62,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-10-07"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "insurance",
+            "amount": 355.99,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-05-02"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "insurance",
+            "amount": 140.22,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-06-17"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "insurance",
+            "amount": 467.9,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-10-25"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "insurance",
+            "amount": 321.43,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-04-18"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "utility",
+            "amount": 445.67,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-07-10"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "utility",
+            "amount": 169.75,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-11-01"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "utility",
+            "amount": 446.69,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2024-01-19"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "utility",
+            "amount": 370.82,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-07-12"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "utility",
+            "amount": 88.81,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-03-14"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "Childcare",
+            "amount": 55.94,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-07-02"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "Childcare",
+            "amount": 225.23,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-07-01"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "Childcare",
+            "amount": 67.43,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-09-10"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "Childcare",
+            "amount": 462.0,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-09-26"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "Childcare",
+            "amount": 481.5,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-09-05"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "pet",
+            "amount": 118.33,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-08-13"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "pet",
+            "amount": 313.31,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-08-26"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "pet",
+            "amount": 305.75,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-02-06"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "pet",
+            "amount": 51.16,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-10-09"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "pet",
+            "amount": 177.51,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-05-09"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "personal upkeep",
+            "amount": 323.74,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-11-13"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "personal upkeep",
+            "amount": 54.51,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2024-02-10"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "personal upkeep",
+            "amount": 482.91,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-04-11"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "personal upkeep",
+            "amount": 368.48,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-06-04"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "personal upkeep",
+            "amount": 122.79,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-04-17"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "subscriptions",
+            "amount": 196.9,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-10-27"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "subscriptions",
+            "amount": 10.15,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-07-21"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "subscriptions",
+            "amount": 229.75,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-08-20"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "subscriptions",
+            "amount": 160.91,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-11-07"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "subscriptions",
+            "amount": 324.55,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-10-11"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "entertainment",
+            "amount": 313.11,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-03-25"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "entertainment",
+            "amount": 409.91,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2024-01-25"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "entertainment",
+            "amount": 77.82,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-11-20"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "entertainment",
+            "amount": 79.08,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-04-04"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "entertainment",
+            "amount": 178.32,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-08-10"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "others",
+            "amount": 130.73,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-12-16"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "others",
+            "amount": 338.7,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-08-27"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "others",
+            "amount": 324.39,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-07-18"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "others",
+            "amount": 82.66,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2023-08-08"
+        },
+        {
+            "userId": "d34e69d4-f769-4ae8-8ad9-29e57ea0ab76",
+            "category": "others",
+            "amount": 99.37,
+            "title": "Generic Expense",
+            "description": "A generic expense description.",
+            "date": "2022-10-24"
+        }
+    ]

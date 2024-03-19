@@ -1,0 +1,242 @@
+[
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "gift",
+    "amount": 1959.24,
+    "title": "Birthday Money",
+    "description": "Cash gift received for birthday.",
+    "date": "2022-08-18"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "gift",
+    "amount": 1167.15,
+    "title": "Wedding Gift",
+    "description": "Money gift from wedding.",
+    "date": "2022-12-24"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "gift",
+    "amount": 1916.31,
+    "title": "Anniversary Gift",
+    "description": "Received anniversary gift.",
+    "date": "2023-06-26"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "gift",
+    "amount": 1774.67,
+    "title": "Christmas Gift",
+    "description": "Cash received as Christmas gift.",
+    "date": "2023-02-02"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "gift",
+    "amount": 4284.45,
+    "title": "Graduation Gift",
+    "description": "Money received for graduation.",
+    "date": "2022-07-08"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "other",
+    "amount": 4981.42,
+    "title": "Unexpected Bonus",
+    "description": "Unexpected bonus received.",
+    "date": "2023-12-24"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "other",
+    "amount": 1319.86,
+    "title": "Lottery Winning",
+    "description": "Small lottery winning.",
+    "date": "2023-07-09"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "other",
+    "amount": 874.16,
+    "title": "Refund",
+    "description": "Refund from overpaid bill.",
+    "date": "2023-07-26"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "other",
+    "amount": 4520.9,
+    "title": "Cashback Reward",
+    "description": "Credit card cashback reward.",
+    "date": "2022-03-25"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "other",
+    "amount": 200.34,
+    "title": "Investment Return",
+    "description": "Return on investment.",
+    "date": "2022-04-08"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "job",
+    "amount": 1325.11,
+    "title": "Monthly Salary",
+    "description": "Regular monthly salary.",
+    "date": "2022-07-23"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "job",
+    "amount": 1813.03,
+    "title": "Performance Bonus",
+    "description": "Annual performance bonus.",
+    "date": "2022-09-01"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "job",
+    "amount": 1606.56,
+    "title": "Overtime Pay",
+    "description": "Overtime work compensation.",
+    "date": "2022-09-04"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "job",
+    "amount": 2115.92,
+    "title": "Holiday Pay",
+    "description": "Compensation for working on a holiday.",
+    "date": "2023-05-01"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "job",
+    "amount": 3948.64,
+    "title": "Commission",
+    "description": "Sales commission received.",
+    "date": "2023-01-26"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "side business",
+    "amount": 3101.42,
+    "title": "Freelance Project",
+    "description": "Income from a freelance project.",
+    "date": "2023-08-24"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "side business",
+    "amount": 145.83,
+    "title": "Etsy Sales",
+    "description": "Earnings from selling handmade goods on Etsy.",
+    "date": "2023-05-24"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "side business",
+    "amount": 1759.93,
+    "title": "Photography Gig",
+    "description": "Income from a photography gig.",
+    "date": "2023-09-04"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "side business",
+    "amount": 2217.57,
+    "title": "Online Course",
+    "description": "Revenue from selling an online course.",
+    "date": "2022-08-30"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "side business",
+    "amount": 1730.19,
+    "title": "Affiliate Marketing",
+    "description": "Earnings from affiliate marketing.",
+    "date": "2023-03-15"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "sold product",
+    "amount": 4687.34,
+    "title": "Garage Sale",
+    "description": "Income from garage sale.",
+    "date": "2023-06-26"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "sold product",
+    "amount": 3943.67,
+    "title": "eBay Sales",
+    "description": "Revenue from selling items on eBay.",
+    "date": "2022-04-01"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "sold product",
+    "amount": 1033.36,
+    "title": "Amazon FBA",
+    "description": "Earnings from Amazon FBA sales.",
+    "date": "2022-10-26"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "sold product",
+    "amount": 1921.17,
+    "title": "Craft Fair",
+    "description": "Income from selling at a craft fair.",
+    "date": "2023-03-19"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "sold product",
+    "amount": 1543.96,
+    "title": "Consignment",
+    "description": "Earnings from consignment sales.",
+    "date": "2022-10-03"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "services",
+    "amount": 2631.75,
+    "title": "Consulting Fee",
+    "description": "Consulting services fee.",
+    "date": "2023-05-25"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "services",
+    "amount": 2862.81,
+    "title": "Landscaping Job",
+    "description": "Income from a landscaping job.",
+    "date": "2024-01-21"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "services",
+    "amount": 245.72,
+    "title": "Cleaning Services",
+    "description": "Payment for cleaning services.",
+    "date": "2022-03-22"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "services",
+    "amount": 3044.64,
+    "title": "Tutoring",
+    "description": "Income from tutoring services.",
+    "date": "2022-05-12"
+  },
+  {
+    "userId": "a84d4750-1e2e-480a-924c-574a0d0a26f0",
+    "category": "services",
+    "amount": 4215.93,
+    "title": "Personal Training",
+    "description": "Earnings from personal training services.",
+    "date": "2023-07-12"
+  }
+]
