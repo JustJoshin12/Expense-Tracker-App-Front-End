@@ -66,7 +66,7 @@ const SignupPage = () => {
   };
 
   return (
-    <div className="pt-40 bg-blue-400 h-screen">
+    <div className="pt-40 h-screen">
       <div className="flex w-[1200px] h-[600px] justify-center border mx-auto rounded-badge overflow-hidden">
         <div className="flex flex-col items-center justify-center bg-slate-500 gap-4 w-1/2">
           <img src={logo} className="w-32 h-32" />

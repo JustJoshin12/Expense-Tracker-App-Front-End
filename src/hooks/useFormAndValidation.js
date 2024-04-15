@@ -1,16 +1,14 @@
-import React, { useState, useCallback, useRef } from "react";
+import { useState, useCallback } from "react";
 
 export function useFormAndValidation() {
   const [values, setValues] = useState({});
   const [errors, setErrors] = useState({});
   const [isValid, setIsValid] = useState(true);
-  // Add a state to track if the file input should be reset
   const [resetFile, setResetFile] = useState(false);
 
   const handleChange = (e) => {
     const { name, type } = e.target;
     if (type === "file") {
-      // Reset the flag for file input reset
       setResetFile(false);
 
       const file = e.target.files[0];
@@ -57,7 +55,7 @@ export function useFormAndValidation() {
     resetForm,
     setValues,
     setIsValid,
-    resetFile, // Expose the resetFile state to use it in the component
-    setResetFile, // Allow resetting the resetFile flag externally if needed
+    resetFile, 
+    setResetFile, 
   };
 }

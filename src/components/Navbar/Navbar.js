@@ -1,27 +1,27 @@
 
-const Navbar = () => {
+const Navbar = ({handlePageChange}) => {
   return (
     <nav className="flex items-center text-2xl font-[Poppins-bold] text-primary">
       <ul className="flex list-none p-0 m-0">
         <li className="flex-grow text-center">
-          <a href="#home" className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out">
+          <button className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out" onClick={() => {handlePageChange('home')}}>
             Home
-          </a>
+          </button>
         </li>
         <li className="flex-grow text-center">
-          <a href="#expenses" className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out">
+          <button className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out" onClick={() => {handlePageChange('expense')}}>
             Expenses
-          </a>
+          </button>
         </li>
         <li className="flex-grow text-center">
-          <a href="#income" className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out">
+          <button className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out" onClick={() => {handlePageChange('income')}}>
             Income
-          </a>
+          </button>
         </li>
         <li className="flex-grow text-center">
-          <a href="#settings" className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out">
-            Settings
-          </a>
+          <button className="block py-4 px-6 hover:bg-gray-700 hover:shadow-lg hover:text-secondary transition duration-200 ease-in-out">
+           Goals
+          </button>
         </li>
       </ul>
     </nav>

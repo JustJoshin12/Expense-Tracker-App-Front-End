@@ -4,19 +4,27 @@ export const checkResponse = (res) => {
   return res.ok ? res.json() : Promise.reject(res.status);
 };
 
-export const createCategory = ({ name, budget }) => {
-  return fetch(`${baseUrl}/category`, {
+export const createIncome = ({
+  category,
+  amount,
+  title,
+  description,
+  date,
+}) => {
+  return fetch(`${baseUrl}/income`, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
       authorization: `Bearer ${localStorage.getItem("jwt")}`,
     },
-    body: JSON.stringify({ name, budget }),
-  }).then((res) => checkResponse(res));
+    body: JSON.stringify({ category, amount, title, description, date }),
+  }).then((res) => {
+    return checkResponse(res);
+  });
 };
 
-export const getAllCategories = () => {
-  return fetch(`${baseUrl}/category`, {
+export const getAllIncomes = () => {
+  return fetch(`${baseUrl}/income`, {
     method: "GET",
     headers: {
       "Content-Type": "application/json",
@@ -27,21 +35,28 @@ export const getAllCategories = () => {
   });
 };
 
-export const updateCategory = ({ id, name, budget }) => {
-  return fetch(`${baseUrl}/category/${id}`, {
+export const updateIncome = ({
+  id,
+  category,
+  amount,
+  title,
+  description,
+  date,
+}) => {
+  return fetch(`${baseUrl}/income/${id}`, {
     method: "PATCH",
     headers: {
       "Content-Type": "application/json",
       authorization: `Bearer ${localStorage.getItem("jwt")}`,
     },
-    body: JSON.stringify({ name, budget }),
+    body: JSON.stringify({ category, amount, title, description, date }),
   }).then((res) => {
     return checkResponse(res);
   });
 };
 
-export const deleteCategory = (id) => {
-  return fetch(`${baseUrl}/category/${id}`, {
+export const deleteIncome = (id) => {
+  return fetch(`${baseUrl}/income/${id}`, {
     method: "DELETE",
     headers: {
       "Content-Type": "application/json",
@@ -51,6 +66,7 @@ export const deleteCategory = (id) => {
     return checkResponse(res);
   });
 };
+
 
 export const createExpense = ({
   category,
